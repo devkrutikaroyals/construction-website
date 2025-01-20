@@ -1,0 +1,101 @@
+.about-us {
+  font-family: Arial, sans-serif;
+}
+
+.hero-section {
+  background-image: url(../images/AboutUs.jpg); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding:400px 20px;
+}
+.hero-content h1{
+  font-size: 3rem;
+  margin-bottom: 2px;
+}
+
+.hero-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 2rem;
+}
+
+.who-we-are {
+  padding: 40px 20px;
+}
+
+.who-we-are .content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.who-we-are .text {
+  flex: 1;
+}
+
+.who-we-are .text h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.who-we-are .text p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.who-we-are .image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+}
+
+.mission-vision {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.mission-vision h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.mission-vision .content {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.mission-vision .mission,
+.mission-vision .vision {
+  flex: 1;
+  max-width: 400px;
+}
+
+.mission-vision h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.mission-vision p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
