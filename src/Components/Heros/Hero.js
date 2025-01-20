@@ -21,7 +21,13 @@ const Hero = () => {
   return (
     <div className="hero">
       {/* Background Video */}
-      <video className="background-video" src={heroVideo} autoPlay loop muted></video>
+      <video
+        className="background-video"
+        src={heroVideo}
+        autoPlay
+        loop
+        muted
+      ></video>
 
       {/* Hero Content */}
       <div className="hero-content">
@@ -41,8 +47,6 @@ const Hero = () => {
       >
         <img src="/path-to-whatsapp-logo.png" alt="WhatsApp" />
       </a>
-
-      {/* Contact Form Modal */}
       {showForm && (
         <div className="modal">
           <div className="modal-content">
@@ -66,4 +70,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Hero; 
