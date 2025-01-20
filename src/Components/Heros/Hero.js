@@ -21,22 +21,16 @@ const Hero = () => {
   return (
     <div className="hero">
       {/* Background Video */}
-      <video
-  className="background-video"
-  src={heroVideo}
-  autoPlay
-  loop
-  muted
-></video>
+      <video className="background-video" src={heroVideo} autoPlay loop muted></video>
 
-<div className="hero-content">
-  <h1>Build Your Dreams with Us</h1>
-  <p>Professional construction solutions for your projects.</p>
-  <button className="contact-button" onClick={handleContactClick}>
-    Contact Us
-  </button>
-</div>
-
+      {/* Hero Content */}
+      <div className="hero-content">
+        <h1>Build Your Dreams with Us</h1>
+        <p>Professional construction solutions for your projects.</p>
+        <button className="contact-button" onClick={handleContactClick}>
+          Contact Us
+        </button>
+      </div>
 
       {/* WhatsApp Button */}
       <a
